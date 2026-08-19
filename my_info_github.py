@@ -18,5 +18,5 @@ new_entry = {
 data["conversation_history"].append(new_entry)
 
 # Write back to file
-with open("my_info.json", "w") as f:
+with open("my_info_github.json", "w") as f:
     json.dump(data, f, indent=2)
