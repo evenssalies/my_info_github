@@ -3,11 +3,17 @@ import json
 import datetime
 
 # Read existing data
+#   Create empty file my_info_github.json if it doesn't exist
 try:
     with open("my_info_github.json", "r") as f:
         data = json.load(f)
 except FileNotFoundError:
-    data = {"user": "YourUsername", "github_folder": "", "publications_folder": "", "conversation_history": []}
+    data = {"user": "82128",
+            "name": {"forename": "Evens", "surname": "Salies"},
+            "github_folder": "C:/Users/82128/Documents/GitHub",
+            "conversation_history": []}
+    with open("my_info_github.json", "w") as f:
+        json.dump(data, f, indent=2)
 
 # Add new entry
 new_entry = {
