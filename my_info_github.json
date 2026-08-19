@@ -1,0 +1,21 @@
+{
+  "file": "my_info_github.json",
+  "user": "82128",
+  "name": {
+    "forename": "Evens",
+    "surname": "Salies"
+    },
+  "github_folder": "C:/Users/82128/Documents/GitHub",
+  "conversation_history": [
+    {
+      "date": "2026-08-19",
+      "topic": "This PC",
+      "notes": "User, Name, Working Folder"
+    },
+    {
+      "date": "2026-08-19",
+      "topic": "Set up my_info_tfp.json",
+      "notes": "Set up this file."
+    }
+  ]
+}
